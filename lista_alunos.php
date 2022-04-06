@@ -1,9 +1,7 @@
-<?php  
-    include './lib/listar.php';
-    $alunos = listaAlunos();
-    $aluno = $alunos[4]
-?>
+<?php 
+   
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,13 +13,12 @@
 <body>
     <header>
         <a href="/"> HOME </a>
-        <a href="/lista_alunos.php"> Alunos </a>
+        <a href="/04-04-22/lib/listaAlunos.php"> Alunos </a>
     </header>
     <main>
-        Olá
-        <?php
-            echo '<p>' .$aluno. '</p>'
-        ?>
+        <ul>
+
+        </ul>
     </main>
     
 </body>
